@@ -1,0 +1,13 @@
+{
+  "serviceProviderConnections": {
+    "cosmosdb": {
+      "parameterValues": {
+        "connectionString": "@appsetting('cosmosdb-connectionString')"
+      },
+      "serviceProvider": {
+        "id": "/serviceProviders/cosmosdb"
+      },
+      "displayName": "test"
+    }
+  }
+}
